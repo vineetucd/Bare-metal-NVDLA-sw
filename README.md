@@ -18,3 +18,9 @@ Run the following command to extract weights (`weights.dat`):
 python3 weights_extraction/weights.py
 ```
 
+### Convert Image into RISC-V Code
+Run the following command to convert an image into RISC-V code to store the image in data memory:
+
+```bash
+python3 image_to_riscv_code/im2riscv.py
+```
